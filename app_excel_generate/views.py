@@ -4,6 +4,9 @@ import io
 
 class GenerateExcel():
 
+    rename_columns = None
+    color_columns = None
+
     def generate_excel(self, data):
         df = pd.DataFrame(data)
         if self.rename_columns:

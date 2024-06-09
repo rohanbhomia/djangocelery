@@ -41,7 +41,9 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
     'app_accounts',
     'app_celery',
-    'django_celery_results'
+    'django_celery_results',
+    'app_excel_generate',
+    'app_books'
 ]
 
 MIDDLEWARE = [

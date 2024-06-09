@@ -1,0 +1,1 @@
+celery -A djangoproject worker --pool=solo -l info
